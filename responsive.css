@@ -11,10 +11,26 @@
 @media (max-width: 739px){
     #time-elapsed,
     h1{
-        font-size: 32px;
+        font-size: 30px;
         text-align: left;
         align-items: center;
         display: flex;
+    }
 
+    h1{
+        margin-right: -138px;
+    }
+
+    #time-elapsed{
+        margin-right: -16px;
+    }
+}
+
+@media (max-width:300px) {
+    #time-elapsed, h1{
+        font-size: 24px;
+    }
+    #time-elapsed{
+        top: 70px;
     }
 }
