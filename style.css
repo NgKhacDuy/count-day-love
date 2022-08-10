@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    background-image: url(./img/img.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+
+#time-elapsed,
+h1{
+    position: absolute;
+    font-size: 50px;
+}
+
+h1{
+    right: 150px;
+}
+
+#time-elapsed{
+    top: 83px;
+    right: 90px;
+}
