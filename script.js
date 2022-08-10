@@ -12,8 +12,8 @@ function updateClock() {
     var diff = Math.round((newStamp-startStamp)/1000);
     // var y = Math.floor(diff/(24*60*60*30*365)); 
     // diff = diff-(y*24*60*60*30*365); 
-    var m1 = Math.floor(diff/(24*60*60*30)); 
-    diff = diff-(m1*24*60*60*30);
+    // var m1 = Math.floor(diff/(24*60*60*30)); 
+    // diff = diff-(m1*24*60*60*30);
     var d = Math.floor(diff/(24*60*60));
     diff = diff-(d*24*60*60);
     var h = Math.floor(diff/(60*60));
@@ -22,7 +22,7 @@ function updateClock() {
     diff = diff-(m*60);
     var s = diff;
     
-    document.getElementById("time-elapsed").innerHTML =m1+"Tháng, "+  d+" ngày, "+h+" giờ, "+m+" phút, "+s+" giây";
+    document.getElementById("time-elapsed").innerHTML =d+" ngày, "+h+" giờ, "+m+" phút, "+s+" giây";
 }
 
 setInterval(updateClock, 1000);
