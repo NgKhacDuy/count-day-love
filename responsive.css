@@ -22,7 +22,7 @@
     }
 
     #time-elapsed{
-        margin-right: -16px;
+        margin-right: -65px;
     }
 }
 
@@ -32,5 +32,6 @@
     }
     #time-elapsed{
         top: 70px;
+        margin-right: -80px;
     }
 }
